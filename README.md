@@ -347,4 +347,3 @@ VS2010+WDK7.1
             assert.h
             netdef.h
             netstd.h
-            
