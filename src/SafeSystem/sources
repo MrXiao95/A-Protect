@@ -1,0 +1,64 @@
+TARGETNAME=A-Protect
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+#-------------------------
+#!if $(FREEBUILD)
+#MSC_WARNING_LEVEL=/W0
+#!else
+#MSC_WARNING_LEVEL=/W0
+#!endif
+#-------------------------
+#---------先注释掉这些-----
+#---#define STRSAFE_NO_DEPRECATE---把问题解决了----
+
+
+
+SOURCES=SafeSystem.c \
+        ntos.c\
+        Ntfs.c\
+        kbdclass.c\
+        FileSystem.c \
+        InlineHook.c \
+        InitWindowsVersion.c \
+        KernelReload.c\
+        Control.c\
+        ReLoadSSDTTableHook.c\
+        SSDT.c\
+        ShadowSSDT.c\
+        ldasm.c\
+        libdasm.c\
+        SysModule.c\
+        Port.c\
+        Tcpip.c\
+        nsiproxy.c\
+        KillProcess.c\
+        Process.c\
+        Services.c\
+        DeleteFile.c\
+        ProcessModule.c\
+        KernelHookCheck.c\
+        AntiInlineHook.c\
+        Protect.c\
+        Function.c\
+        win32k.c\
+        NetworkDefense.c\
+        dump.c\
+        file.c\
+        DriverHips.c\
+        ObjectHookCheck.c\
+        KernelFilterDriver.c\
+        SystemThread.c\
+        KernelThread.c\
+        fixrelocation.c\
+        Mouclass.c \
+        Atapi.c \
+        DpcTimer.c \
+        SystemNotify.c \
+        Startup.c \
+        WorkQueue.c \
+        LookupKernelData.c \
+        FuncAddrValid.c \
+        ReLoadShadowSSDTTableHook.c \
+        IoTimer.c \
+        msghook.c

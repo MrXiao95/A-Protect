@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="W7 checked (PREfast)|Win32">
+      <Configuration>W7 checked (PREfast)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7 checked|Win32">
+      <Configuration>W7 checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7 free (PREfast)|Win32">
+      <Configuration>W7 free (PREfast)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7 free|Win32">
+      <Configuration>W7 free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LH checked (PREfast)|Win32">
+      <Configuration>W7LH checked (PREfast)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LH checked|Win32">
+      <Configuration>W7LH checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LH free (PREfast)|Win32">
+      <Configuration>W7LH free (PREfast)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LH free|Win32">
+      <Configuration>W7LH free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NET checked (PREfast)|Win32">
+      <Configuration>W7NET checked (PREfast)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NET checked|Win32">
+      <Configuration>W7NET checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NET free (PREfast)|Win32">
+      <Configuration>W7NET free (PREfast)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NET free|Win32">
+      <Configuration>W7NET free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7XP checked (PREfast)|Win32">
+      <Configuration>W7XP checked (PREfast)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7XP checked|Win32">
+      <Configuration>W7XP checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7XP free (PREfast)|Win32">
+      <Configuration>W7XP free (PREfast)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7XP free|Win32">
+      <Configuration>W7XP free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{977880DF-86F8-47A4-8EB1-90B222371A37}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7XP checked (PREfast)|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7XP free (PREfast)|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NET checked (PREfast)|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NET free (PREfast)|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LH checked (PREfast)|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LH free (PREfast)|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7 checked (PREfast)|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7 free (PREfast)|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7XP checked (PREfast)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7XP free (PREfast)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7NET checked (PREfast)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7NET free (PREfast)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7LH checked (PREfast)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7LH free (PREfast)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7 checked (PREfast)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7 free (PREfast)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="SafeSystem.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'">$(DDKBUILD_PATH) -W7 free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'">$(DDKBUILD_PATH) -W7 free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'">DBG=0;WINVER=0x0601;NTDDI_VERSION=0x06010000;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'">$(DDKBUILD_PATH) -W7 checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'">$(DDKBUILD_PATH) -W7 checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'">DBG=1;WINVER=0x0601;NTDDI_VERSION=0x06010000;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7 free (PREfast)|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7 free (PREfast)|Win32'">$(DDKBUILD_PATH) -W7 free . -cZ -prefast</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7 free (PREfast)|Win32'">$(DDKBUILD_PATH) -W7 free . -cZ -prefast</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7 free (PREfast)|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7 free (PREfast)|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7 free (PREfast)|Win32'">DBG=0;WINVER=0x0601;NTDDI_VERSION=0x06010000;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7 free (PREfast)|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7 free (PREfast)|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7 free (PREfast)|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7 free (PREfast)|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='W7 checked (PREfast)|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7 checked (PREfast)|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7 checked (PREfast)|Win32'">$(DDKBUILD_PATH) -W7 checked . -cZ -prefast</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7 checked (PREfast)|Win32'">$(DDKBUILD_PATH) -W7 checked . -cZ -prefast</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7 checked (PREfast)|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7 checked (PREfast)|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7 checked (PREfast)|Win32'">DBG=1;WINVER=0x0601;NTDDI_VERSION=0x06010000;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7 checked (PREfast)|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7 checked (PREfast)|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7 checked (PREfast)|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7 checked (PREfast)|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'">$(DDKBUILD_PATH) -W7LH free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'">$(DDKBUILD_PATH) -W7LH free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'">DBG=0;WINVER=0x0600;NTDDI_VERSION=0x06000100;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'">$(DDKBUILD_PATH) -W7LH checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'">$(DDKBUILD_PATH) -W7LH checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'">DBG=1;WINVER=0x0600;NTDDI_VERSION=0x06000100;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7LH free (PREfast)|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7LH free (PREfast)|Win32'">$(DDKBUILD_PATH) -W7LH free . -cZ -prefast</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7LH free (PREfast)|Win32'">$(DDKBUILD_PATH) -W7LH free . -cZ -prefast</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7LH free (PREfast)|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7LH free (PREfast)|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7LH free (PREfast)|Win32'">DBG=0;WINVER=0x0600;NTDDI_VERSION=0x06000100;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7LH free (PREfast)|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7LH free (PREfast)|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7LH free (PREfast)|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7LH free (PREfast)|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7LH checked (PREfast)|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7LH checked (PREfast)|Win32'">$(DDKBUILD_PATH) -W7LH checked . -cZ -prefast</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7LH checked (PREfast)|Win32'">$(DDKBUILD_PATH) -W7LH checked . -cZ -prefast</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7LH checked (PREfast)|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7LH checked (PREfast)|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7LH checked (PREfast)|Win32'">DBG=1;WINVER=0x0600;NTDDI_VERSION=0x06000100;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7LH checked (PREfast)|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7LH checked (PREfast)|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7LH checked (PREfast)|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7LH checked (PREfast)|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'">$(DDKBUILD_PATH) -W7NET free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'">$(DDKBUILD_PATH) -W7NET free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'">DBG=0;WINVER=0x0502;NTDDI_VERSION=0x05020100;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'">$(DDKBUILD_PATH) -W7NET checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'">$(DDKBUILD_PATH) -W7NET checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'">DBG=1;WINVER=0x0502;NTDDI_VERSION=0x05020100;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7NET free (PREfast)|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7NET free (PREfast)|Win32'">$(DDKBUILD_PATH) -W7NET free . -cZ -prefast</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7NET free (PREfast)|Win32'">$(DDKBUILD_PATH) -W7NET free . -cZ -prefast</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7NET free (PREfast)|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7NET free (PREfast)|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7NET free (PREfast)|Win32'">DBG=0;WINVER=0x0502;NTDDI_VERSION=0x05020100;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7NET free (PREfast)|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7NET free (PREfast)|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7NET free (PREfast)|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7NET free (PREfast)|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7NET checked (PREfast)|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7NET checked (PREfast)|Win32'">$(DDKBUILD_PATH) -W7NET checked . -cZ -prefast</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7NET checked (PREfast)|Win32'">$(DDKBUILD_PATH) -W7NET checked . -cZ -prefast</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7NET checked (PREfast)|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7NET checked (PREfast)|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7NET checked (PREfast)|Win32'">DBG=1;WINVER=0x0502;NTDDI_VERSION=0x05020100;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7NET checked (PREfast)|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7NET checked (PREfast)|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7NET checked (PREfast)|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7NET checked (PREfast)|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'">$(DDKBUILD_PATH) -W7XP free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'">$(DDKBUILD_PATH) -W7XP free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'">DBG=0;WINVER=0x0501;NTDDI_VERSION=0x05010200;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'">$(DDKBUILD_PATH) -W7XP checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'">$(DDKBUILD_PATH) -W7XP checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'">DBG=1;WINVER=0x0501;NTDDI_VERSION=0x05010200;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7XP free (PREfast)|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7XP free (PREfast)|Win32'">$(DDKBUILD_PATH) -W7XP free . -cZ -prefast</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7XP free (PREfast)|Win32'">$(DDKBUILD_PATH) -W7XP free . -cZ -prefast</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7XP free (PREfast)|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7XP free (PREfast)|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7XP free (PREfast)|Win32'">DBG=0;WINVER=0x0501;NTDDI_VERSION=0x05010200;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7XP free (PREfast)|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7XP free (PREfast)|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7XP free (PREfast)|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7XP free (PREfast)|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='W7XP checked (PREfast)|Win32'">.\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7XP checked (PREfast)|Win32'">$(DDKBUILD_PATH) -W7XP checked . -cZ -prefast</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='W7XP checked (PREfast)|Win32'">$(DDKBUILD_PATH) -W7XP checked . -cZ -prefast</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='W7XP checked (PREfast)|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='W7XP checked (PREfast)|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='W7XP checked (PREfast)|Win32'">DBG=1;WINVER=0x0501;NTDDI_VERSION=0x05010200;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='W7XP checked (PREfast)|Win32'">$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='W7XP checked (PREfast)|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='W7XP checked (PREfast)|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='W7XP checked (PREfast)|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AntiInlineHook.c" />
+    <ClCompile Include="Atapi.c" />
+    <ClCompile Include="Control.c" />
+    <ClCompile Include="DeleteFile.c" />
+    <ClCompile Include="DpcTimer.c" />
+    <ClCompile Include="DriverHips.c" />
+    <ClCompile Include="dump.c" />
+    <ClCompile Include="file.c" />
+    <ClCompile Include="FileSystem.c" />
+    <ClCompile Include="Fixrelocation.c" />
+    <ClCompile Include="FuncAddrValid.c" />
+    <ClCompile Include="Function.c" />
+    <ClCompile Include="InitWindowsVersion.c" />
+    <ClCompile Include="InlineHook.c" />
+    <ClCompile Include="IoTimer.c" />
+    <ClCompile Include="kbdclass.c" />
+    <ClCompile Include="KernelFilterDriver.c" />
+    <ClCompile Include="KernelHookCheck.c" />
+    <ClCompile Include="KernelReload.c" />
+    <ClCompile Include="KernelThread.c" />
+    <ClCompile Include="KillProcess.c" />
+    <ClCompile Include="ldasm.c" />
+    <ClCompile Include="libdasm.c" />
+    <ClCompile Include="LookupKernelData.c" />
+    <ClCompile Include="Mouclass.c" />
+    <ClCompile Include="msghook.c" />
+    <ClCompile Include="NetworkDefense.c" />
+    <ClCompile Include="nsiproxy.c" />
+    <ClCompile Include="Ntfs.c" />
+    <ClCompile Include="ntos.c" />
+    <ClCompile Include="ObjectHookCheck.c" />
+    <ClCompile Include="Port.c" />
+    <ClCompile Include="Process.c" />
+    <ClCompile Include="ProcessModule.c" />
+    <ClCompile Include="Protect.c" />
+    <ClCompile Include="ReLoadShadowSSDTTableHook.c" />
+    <ClCompile Include="ReLoadSSDTTableHook.c" />
+    <ClCompile Include="SafeSystem.c" />
+    <ClCompile Include="SelectModuleHook.c" />
+    <ClCompile Include="Services.c" />
+    <ClCompile Include="ShadowSSDT.c" />
+    <ClCompile Include="SSDT.c" />
+    <ClCompile Include="Startup.c" />
+    <ClCompile Include="SysModule.c" />
+    <ClCompile Include="SystemNotify.c" />
+    <ClCompile Include="SystemThread.c" />
+    <ClCompile Include="Tcpip.c" />
+    <ClCompile Include="win32k.c" />
+    <ClCompile Include="WorkQueue.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AntiInlineHook.h" />
+    <ClInclude Include="Atapi.h" />
+    <ClInclude Include="buildnumber.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Control.h" />
+    <ClInclude Include="DeleteFile.h" />
+    <ClInclude Include="DpcTimer.h" />
+    <ClInclude Include="DriverHips.h" />
+    <ClInclude Include="drvcommon.h" />
+    <ClInclude Include="drvversion.h" />
+    <ClInclude Include="dump.h" />
+    <ClInclude Include="file.h" />
+    <ClInclude Include="FileSystem.h" />
+    <ClInclude Include="Fixrelocation.h" />
+    <ClInclude Include="FuncAddrValid.h" />
+    <ClInclude Include="Function.h" />
+    <ClInclude Include="InitWindowsVersion.h" />
+    <ClInclude Include="InlineHook.h" />
+    <ClInclude Include="IoTimer.h" />
+    <ClInclude Include="kbdclass.h" />
+    <ClInclude Include="KernelFilterDriver.h" />
+    <ClInclude Include="KernelHookCheck.h" />
+    <ClInclude Include="KernelReload.h" />
+    <ClInclude Include="KernelThread.h" />
+    <ClInclude Include="KillProcess.h" />
+    <ClInclude Include="ldasm.h" />
+    <ClInclude Include="libdasm.h" />
+    <ClInclude Include="LookupKernelData.h" />
+    <ClInclude Include="Mouclass.h" />
+    <ClInclude Include="msghook.h" />
+    <ClInclude Include="NetworkDefense.h" />
+    <ClInclude Include="nsiproxy.h" />
+    <ClInclude Include="Ntfs.h" />
+    <ClInclude Include="ntifs.h" />
+    <ClInclude Include="ntos.h" />
+    <ClInclude Include="ObjectHookCheck.h" />
+    <ClInclude Include="Port.h" />
+    <ClInclude Include="Process.h" />
+    <ClInclude Include="ProcessModule.h" />
+    <ClInclude Include="Protect.h" />
+    <ClInclude Include="ReLoadShadowSSDTTableHook.h" />
+    <ClInclude Include="ReLoadSSDTTableHook.h" />
+    <ClInclude Include="SafeSystem.h" />
+    <ClInclude Include="SDTShadowRestore.h" />
+    <ClInclude Include="Services.h" />
+    <ClInclude Include="ShadowSSDT.h" />
+    <ClInclude Include="SSDT.h" />
+    <ClInclude Include="Startup.h" />
+    <ClInclude Include="SysModule.h" />
+    <ClInclude Include="SystemNotify.h" />
+    <ClInclude Include="SystemThread.h" />
+    <ClInclude Include="tables.h" />
+    <ClInclude Include="Tcpip.h" />
+    <ClInclude Include="win32k.h" />
+    <ClInclude Include="WorkQueue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="drvversion.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
